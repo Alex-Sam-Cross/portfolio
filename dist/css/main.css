@@ -261,11 +261,11 @@ main {
   .boxes div {
     font-size: 2rem;
     border: 3px white solid;
-    padding: 1.5rem 2.5rem;
+    padding: 0.5rem 1.5rem;
     margin-bottom: 3rem;
     transition: all 0.75s ease-out; }
     .boxes div:hover {
-      padding: 0.5rem 1.5rem;
+      padding: 1.5rem 2.5rem;
       background: #c4702c;
       color: #000; }
       .boxes div:hover span {
