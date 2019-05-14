@@ -1,8 +1,14 @@
 // widescreens
 @include mediaXL {
+  .projects {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 // descktop & laptops
 @include mediaLg {
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 // small laptops & tablets
 @include mediaMd {
@@ -49,8 +55,15 @@
       'bio'
       'job1'
       'job2'
-      'job3';
+      'job3'
+      'job4'
+      'job5'
+      'job6';
     grid-template-columns: 1fr;
+  }
+
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 // mobile phones
@@ -65,7 +78,14 @@
       'bio'
       'job1'
       'job2'
-      'job3';
+      'job3'
+      'job4'
+      'job5'
+      'job6';
     grid-template-columns: 1fr;
+  }
+
+  .projects {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
