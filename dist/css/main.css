@@ -228,28 +228,28 @@ main {
   background: #c4c4c4;
   color: #333; }
 
-.challange {
+.challenge {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
   margin-top: 1rem; }
-  .challange div {
+  .challenge div {
     font-size: 2rem;
     border: 3px white solid;
     padding: 0.5rem 1.5rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
     transition: all 0.75s ease-out; }
-    .challange div .answer {
+    .challenge div .answer {
       visibility: hidden; }
-    .challange div:hover {
+    .challenge div:hover {
       padding: 1.5rem 2.5rem;
       background: #c4702c;
       color: #000; }
-      .challange div:hover span {
+      .challenge div:hover span {
         color: #000; }
-      .challange div:hover .answer {
+      .challenge div:hover .answer {
         visibility: visible; }
 
 .boxes {
