@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./../css/main.css" />
+
+    <title>My Work</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+      </div>
+      <nav class="menu">
+        <div class="menu-branding">
+          <div class="portrait"></div>
+        </div>
+        <ul class="menu-nav">
+          <li class="nav-item">
+            <a href="./../index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About me</a>
+          </li>
+          <li class="nav-item ">
+            <a href="myWork.html" class="nav-link">My work</a>
+          </li>
+          <li class="nav-item current">
+            <a href="challenges.html" class="nav-link">JavaScript challenges</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">How to reach me</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="challanges">
+      <h1 class="main-heading">
+        JavaScript <span class="text_secondary">Challenges</span>
+      </h1>
+      <h2 class="sub-heading">
+        Check out some JavaScript challenges...
+      </h2>
+      <div class="challenge">
+        <div>
+          <span class="question">
+            CHALLENGE 1: REVERSE A STRING <br />
+            Return a string in reverse. <br />
+            ie. reverseString('hello') === 'olleh'<br />
+          </span>
+          <div class="answer">
+            return str.split('').reverse().join(''); <br />
+            or <br />
+            return str.split('').reduce((revString, char) => char + revString);
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer id="main-footer">
+      ASCross &copy; 2019
+    </footer>
+
+    <script src="./../js/main.js"></script>
+  </body>
+</html>
