@@ -52,7 +52,7 @@
         JavaScript <span class="text_secondary">Challenges</span>
       </h1>
       <h2 class="sub-heading">
-        Check out some JavaScript challenges...
+        Mouse over the challenge for the answer...
       </h2>
       <div class="challenge">
         <div>
@@ -65,6 +65,37 @@
             return str.split('').reverse().join(''); <br />
             or <br />
             return str.split('').reduce((revString, char) => char + revString);
+          </div>
+        </div>
+        <div>
+          <span class="question">
+            CHALLENGE 2: REVERSE AN INTEGER <br />
+            Return a string in reverse. <br />
+            ie. reverseInt('123') === '321'<br />
+          </span>
+          <div class="answer">
+            return ( parseInt ( int.toString().split('').reverse().join('') ) * Math.sign(int)); <br />
+            Math.sign(int) keeps the negitive symbol if needed.
+          </div>
+        </div>
+        <div>
+          <span class="question">
+            CHALLENGE 3: FizzBuzz <br />
+            Log 1-100 except swap out every 3rd number for Fizz and 5th for Buzz. <br />
+            ie. 1, 2, Fizz, 4, Buzz, 6 ect<br />
+          </span>
+          <div class="answer">
+            for (let i = 0; i <= 100; i++) { <br />
+              &nbsp;&nbsp;  if (i % 3 === 0 && i % 5 === 0) { <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;  console.log('FizzBuzz'); <br />
+              &nbsp;&nbsp; } else if (i % 3 === 0) { <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;  console.log('Fizz'); <br />
+              &nbsp;&nbsp; } else if (i % 5 === 0) { <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;  console.log('Buzz'); <br />
+              &nbsp;&nbsp;} else { <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;  console.log(i); <br />
+                &nbsp;&nbsp;} <br />
+            } 
           </div>
         </div>
       </div>
